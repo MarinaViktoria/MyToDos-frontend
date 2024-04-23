@@ -50,4 +50,11 @@ p {
   width: 600px;
   font-size: 20px
   }     
-
+@media all and (max-width: 500px) {
+  input {
+    width: 60%;
+  }
+  p {
+    max-width: 300px;
+  }
+}
